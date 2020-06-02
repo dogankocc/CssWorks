@@ -1,0 +1,26 @@
+<style>
+.outer{
+    width: 100%;
+    height:74px;
+    display:block;
+    text-align:center;
+}
+.inner{
+    width: 50px;
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+</style>
+
+
+<div class="outer">
+  <div class="inner">
+  </div>
+</div>
