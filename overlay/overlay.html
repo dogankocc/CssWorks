@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="C:/Users/dogankoc/Desktop/MyWebComponents/overlay/overlay.css"/>
+    <script type="text/javascript" src="C:/Users/dogankoc/Desktop/MyWebComponents/overlay/overlay.js"></script>
+
+</head>
+<body>
+    <img src="C:\\Users\\dogankoc\\Desktop\\unknown.png" width="200" height="200">
+    <div><button onclick="openOverlay(event)">Tıkla</button></div>
+    <div id="overlay-test">
+
+    </div>
+    <script>
+        var instance = new overlay({
+            el:document.getElementById('overlay-test'),
+            id:'overlay-test-1',
+            src:'C:\\Users\\dogankoc\\Desktop\\unknown.png',
+            filename:"testimlan",
+            download:true
+        })
+        function openOverlay(event){
+            instance.open()
+        }
+    </script>
+</body>
+</html>
